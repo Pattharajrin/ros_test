@@ -1,0 +1,17 @@
+[3.685s] Invoking command in '/home/yuki/650610851_final/build/turtlebot_controller': PYTHONPATH=/home/yuki/650610851_final/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuki/650610851_final/build/turtlebot_controller/build --no-deps symlink_data
+[4.755s] running develop
+[5.554s] running egg_info
+[5.555s] writing turtlebot_controller.egg-info/PKG-INFO
+[5.556s] writing dependency_links to turtlebot_controller.egg-info/dependency_links.txt
+[5.556s] writing entry points to turtlebot_controller.egg-info/entry_points.txt
+[5.557s] writing requirements to turtlebot_controller.egg-info/requires.txt
+[5.558s] writing top-level names to turtlebot_controller.egg-info/top_level.txt
+[5.564s] reading manifest file 'turtlebot_controller.egg-info/SOURCES.txt'
+[5.566s] writing manifest file 'turtlebot_controller.egg-info/SOURCES.txt'
+[5.571s] running build_ext
+[5.571s] Creating /home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot-controller.egg-link (link to .)
+[5.573s] Installing move_node script to /home/yuki/650610851_final/install/turtlebot_controller/lib/turtlebot_controller
+[5.574s] 
+[5.574s] Installed /home/yuki/650610851_final/build/turtlebot_controller
+[5.575s] running symlink_data
+[5.687s] Invoked command in '/home/yuki/650610851_final/build/turtlebot_controller' returned '0': PYTHONPATH=/home/yuki/650610851_final/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuki/650610851_final/build/turtlebot_controller/build --no-deps symlink_data

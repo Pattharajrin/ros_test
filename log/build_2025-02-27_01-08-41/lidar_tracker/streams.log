@@ -1,0 +1,17 @@
+[1.851s] Invoking command in '/home/yuki/650610851_final/build/lidar_tracker': PYTHONPATH=/home/yuki/650610851_final/build/lidar_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/lidar_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuki/650610851_final/build/lidar_tracker/build --no-deps symlink_data
+[2.308s] running develop
+[2.626s] running egg_info
+[2.626s] writing lidar_tracker.egg-info/PKG-INFO
+[2.627s] writing dependency_links to lidar_tracker.egg-info/dependency_links.txt
+[2.628s] writing entry points to lidar_tracker.egg-info/entry_points.txt
+[2.628s] writing requirements to lidar_tracker.egg-info/requires.txt
+[2.629s] writing top-level names to lidar_tracker.egg-info/top_level.txt
+[2.631s] reading manifest file 'lidar_tracker.egg-info/SOURCES.txt'
+[2.633s] writing manifest file 'lidar_tracker.egg-info/SOURCES.txt'
+[2.636s] running build_ext
+[2.637s] Creating /home/yuki/650610851_final/install/lidar_tracker/lib/python3.10/site-packages/lidar-tracker.egg-link (link to .)
+[2.638s] Installing lidar_node script to /home/yuki/650610851_final/install/lidar_tracker/lib/lidar_tracker
+[2.639s] 
+[2.639s] Installed /home/yuki/650610851_final/build/lidar_tracker
+[2.639s] running symlink_data
+[2.734s] Invoked command in '/home/yuki/650610851_final/build/lidar_tracker' returned '0': PYTHONPATH=/home/yuki/650610851_final/build/lidar_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/lidar_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuki/650610851_final/build/lidar_tracker/build --no-deps symlink_data

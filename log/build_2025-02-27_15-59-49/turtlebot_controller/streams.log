@@ -1,0 +1,20 @@
+[4.005s] Invoking command in '/home/yuki/650610851_final/build/turtlebot_controller': PYTHONPATH=/home/yuki/650610851_final/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuki/650610851_final/build/turtlebot_controller/build --no-deps symlink_data --force
+[4.937s] running develop
+[5.582s] running egg_info
+[5.584s] writing turtlebot_controller.egg-info/PKG-INFO
+[5.585s] writing dependency_links to turtlebot_controller.egg-info/dependency_links.txt
+[5.585s] writing entry points to turtlebot_controller.egg-info/entry_points.txt
+[5.586s] writing requirements to turtlebot_controller.egg-info/requires.txt
+[5.586s] writing top-level names to turtlebot_controller.egg-info/top_level.txt
+[5.591s] reading manifest file 'turtlebot_controller.egg-info/SOURCES.txt'
+[5.598s] writing manifest file 'turtlebot_controller.egg-info/SOURCES.txt'
+[5.602s] running build_ext
+[5.602s] Creating /home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot-controller.egg-link (link to .)
+[5.605s] Installing move_node script to /home/yuki/650610851_final/install/turtlebot_controller/lib/turtlebot_controller
+[5.606s] 
+[5.607s] Installed /home/yuki/650610851_final/build/turtlebot_controller
+[5.607s] running symlink_data
+[5.607s] symbolically linking /home/yuki/650610851_final/build/turtlebot_controller/resource/turtlebot_controller -> /home/yuki/650610851_final/install/turtlebot_controller/share/ament_index/resource_index/packages
+[5.609s] symbolically linking /home/yuki/650610851_final/build/turtlebot_controller/package.xml -> /home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller
+[5.611s] symbolically linking /home/yuki/650610851_final/build/turtlebot_controller/launch/turtlebot_launch.py -> /home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/launch
+[5.772s] Invoked command in '/home/yuki/650610851_final/build/turtlebot_controller' returned '0': PYTHONPATH=/home/yuki/650610851_final/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuki/650610851_final/build/turtlebot_controller/build --no-deps symlink_data --force

@@ -1,0 +1,6 @@
+[console_scripts]
+move_node = turtlebot_controller.move_node:main
+
+[launch]
+turtlebot_launch = turtlebot_controller.turtlebot_launch:generate_launch_description
+

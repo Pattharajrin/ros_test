@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating turtlebot_controller.egg-info
+writing turtlebot_controller.egg-info/PKG-INFO
+writing dependency_links to turtlebot_controller.egg-info/dependency_links.txt
+writing entry points to turtlebot_controller.egg-info/entry_points.txt
+writing requirements to turtlebot_controller.egg-info/requires.txt
+writing top-level names to turtlebot_controller.egg-info/top_level.txt
+writing manifest file 'turtlebot_controller.egg-info/SOURCES.txt'
+reading manifest file 'turtlebot_controller.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot-controller.egg-link (link to .)
+Installing move_node script to /home/yuki/650610851_final/install/turtlebot_controller/lib/turtlebot_controller
+
+Installed /home/yuki/650610851_final/build/turtlebot_controller
+running symlink_data
+creating /home/yuki/650610851_final/install/turtlebot_controller/share/ament_index
+creating /home/yuki/650610851_final/install/turtlebot_controller/share/ament_index/resource_index
+creating /home/yuki/650610851_final/install/turtlebot_controller/share/ament_index/resource_index/packages
+symbolically linking /home/yuki/650610851_final/build/turtlebot_controller/resource/turtlebot_controller -> /home/yuki/650610851_final/install/turtlebot_controller/share/ament_index/resource_index/packages
+symbolically linking /home/yuki/650610851_final/build/turtlebot_controller/package.xml -> /home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller
+creating /home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/launch
+symbolically linking /home/yuki/650610851_final/build/turtlebot_controller/launch/turtlebot_launch.py -> /home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/launch

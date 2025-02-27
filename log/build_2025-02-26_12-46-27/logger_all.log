@@ -1,0 +1,193 @@
+[0.572s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.572s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f72ebdb4130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f72ebec1060>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f72ebec1060>>, mixin_verb=('build',))
+[1.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.140s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yuki/650610851_final'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.169s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.170s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_tracker) by extensions ['ignore', 'ignore_ament_install']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_tracker) by extension 'ignore'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_tracker) by extension 'ignore_ament_install'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_tracker) by extensions ['colcon_pkg']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_tracker) by extension 'colcon_pkg'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_tracker) by extensions ['colcon_meta']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_tracker) by extension 'colcon_meta'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_tracker) by extensions ['ros']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_tracker) by extension 'ros'
+[1.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_tracker' with type 'ros.ament_python' and name 'lidar_tracker'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extension 'ignore'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extension 'ignore_ament_install'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extensions ['colcon_pkg']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extension 'colcon_pkg'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extensions ['colcon_meta']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extension 'colcon_meta'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extensions ['ros']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_controller) by extension 'ros'
+[1.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot_controller' with type 'ros.ament_python' and name 'turtlebot_controller'
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.276s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yuki/650610851_final/install/turtlebot_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.277s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yuki/650610851_final/install/lidar_tracker' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.281s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/yuki/650610851_final/install
+[1.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yuki/ros2_ws/install
+[1.284s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/yuki/install
+[1.287s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/yuki/turtlebot3_ws/install
+[1.289s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yuki/labrobo3_ws/install
+[1.293s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 399 installed packages in /opt/ros/humble
+[1.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'lidar_tracker' build argument 'cmake_args' from command line to 'None'
+[1.462s] Level 5:colcon.colcon_core.verb:set package 'lidar_tracker' build argument 'cmake_target' from command line to 'None'
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'lidar_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'lidar_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'lidar_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'lidar_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'lidar_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'lidar_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'lidar_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.463s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuki/650610851_final/build/lidar_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuki/650610851_final/install/lidar_tracker', 'merge_install': False, 'path': '/home/yuki/650610851_final/src/lidar_tracker', 'symlink_install': True, 'test_result_base': None}
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_args' from command line to 'None'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_target' from command line to 'None'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.465s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuki/650610851_final/build/turtlebot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuki/650610851_final/install/turtlebot_controller', 'merge_install': False, 'path': '/home/yuki/650610851_final/src/turtlebot_controller', 'symlink_install': True, 'test_result_base': None}
+[1.465s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.468s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.469s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuki/650610851_final/src/lidar_tracker' with build type 'ament_python'
+[1.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_tracker', 'ament_prefix_path')
+[1.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker/hook/ament_prefix_path.ps1'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker/hook/ament_prefix_path.dsv'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker/hook/ament_prefix_path.sh'
+[1.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.507s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yuki/650610851_final/src/turtlebot_controller' with build type 'ament_python'
+[1.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_controller', 'ament_prefix_path')
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/hook/ament_prefix_path.ps1'
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/hook/ament_prefix_path.dsv'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/hook/ament_prefix_path.sh'
+[1.518s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.518s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.349s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuki/650610851_final/src/lidar_tracker'
+[2.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.213s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yuki/650610851_final/src/turtlebot_controller'
+[3.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.214s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuki/650610851_final/build/lidar_tracker': PYTHONPATH=/home/yuki/650610851_final/build/lidar_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/lidar_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuki/650610851_final/build/lidar_tracker/build --no-deps symlink_data
+[4.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuki/650610851_final/build/turtlebot_controller': PYTHONPATH=/home/yuki/650610851_final/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuki/650610851_final/build/turtlebot_controller/build --no-deps symlink_data
+[6.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_tracker', 'pythonpath_develop')
+[6.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/build/lidar_tracker/share/lidar_tracker/hook/pythonpath_develop.ps1'
+[6.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuki/650610851_final/build/lidar_tracker' returned '0': PYTHONPATH=/home/yuki/650610851_final/build/lidar_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/lidar_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuki/650610851_final/build/lidar_tracker/build --no-deps symlink_data
+[6.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuki/650610851_final/build/lidar_tracker/share/lidar_tracker/hook/pythonpath_develop.dsv'
+[6.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/build/lidar_tracker/share/lidar_tracker/hook/pythonpath_develop.sh'
+[6.077s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/lidar_tracker' for CMake module files
+[6.078s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/lidar_tracker' for CMake config files
+[6.080s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/lidar_tracker/lib'
+[6.081s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/lidar_tracker/bin'
+[6.081s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/lidar_tracker/lib/pkgconfig/lidar_tracker.pc'
+[6.081s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/lidar_tracker/lib/python3.10/site-packages'
+[6.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_tracker', 'pythonpath')
+[6.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker/hook/pythonpath.ps1'
+[6.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker/hook/pythonpath.dsv'
+[6.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker/hook/pythonpath.sh'
+[6.086s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/lidar_tracker/bin'
+[6.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_tracker)
+[6.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker/package.ps1'
+[6.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker/package.dsv'
+[6.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker/package.sh'
+[6.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker/package.bash'
+[6.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker/package.zsh'
+[6.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuki/650610851_final/install/lidar_tracker/share/colcon-core/packages/lidar_tracker)
+[6.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_controller', 'pythonpath_develop')
+[6.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/build/turtlebot_controller/share/turtlebot_controller/hook/pythonpath_develop.ps1'
+[6.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuki/650610851_final/build/turtlebot_controller' returned '0': PYTHONPATH=/home/yuki/650610851_final/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuki/650610851_final/build/turtlebot_controller/build --no-deps symlink_data
+[6.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuki/650610851_final/build/turtlebot_controller/share/turtlebot_controller/hook/pythonpath_develop.dsv'
+[6.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/build/turtlebot_controller/share/turtlebot_controller/hook/pythonpath_develop.sh'
+[6.592s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/turtlebot_controller' for CMake module files
+[6.594s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/turtlebot_controller' for CMake config files
+[6.595s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/turtlebot_controller/lib'
+[6.596s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/turtlebot_controller/bin'
+[6.596s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/turtlebot_controller/lib/pkgconfig/turtlebot_controller.pc'
+[6.597s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages'
+[6.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_controller', 'pythonpath')
+[6.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/hook/pythonpath.ps1'
+[6.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/hook/pythonpath.dsv'
+[6.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/hook/pythonpath.sh'
+[6.608s] Level 1:colcon.colcon_core.environment:checking '/home/yuki/650610851_final/install/turtlebot_controller/bin'
+[6.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_controller)
+[6.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/package.ps1'
+[6.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/package.dsv'
+[6.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/package.sh'
+[6.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/package.bash'
+[6.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/package.zsh'
+[6.622s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuki/650610851_final/install/turtlebot_controller/share/colcon-core/packages/turtlebot_controller)
+[6.625s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.628s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.628s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.756s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.757s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.757s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.757s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.758s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[6.758s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.759s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuki/650610851_final/install/local_setup.ps1'
+[6.764s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuki/650610851_final/install/_local_setup_util_ps1.py'
+[6.770s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuki/650610851_final/install/setup.ps1'
+[6.779s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuki/650610851_final/install/local_setup.sh'
+[6.781s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuki/650610851_final/install/_local_setup_util_sh.py'
+[6.784s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuki/650610851_final/install/setup.sh'
+[6.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuki/650610851_final/install/local_setup.bash'
+[6.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuki/650610851_final/install/setup.bash'
+[6.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuki/650610851_final/install/local_setup.zsh'
+[6.806s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuki/650610851_final/install/setup.zsh'

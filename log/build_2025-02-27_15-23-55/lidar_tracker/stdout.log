@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/lidar_tracker/lidar_tracker.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_tracker/lidar_tracker.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_tracker/lidar_tracker.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_tracker/lidar_tracker.egg-info/requires.txt
+writing top-level names to ../../build/lidar_tracker/lidar_tracker.egg-info/top_level.txt
+reading manifest file '../../build/lidar_tracker/lidar_tracker.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_tracker/lidar_tracker.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lidar_tracker/lidar_node.py -> /home/yuki/650610851_final/build/lidar_tracker/build/lib/lidar_tracker
+running install
+running install_lib
+copying /home/yuki/650610851_final/build/lidar_tracker/build/lib/lidar_tracker/lidar_node.py -> /home/yuki/650610851_final/install/lidar_tracker/lib/python3.10/site-packages/lidar_tracker
+byte-compiling /home/yuki/650610851_final/install/lidar_tracker/lib/python3.10/site-packages/lidar_tracker/lidar_node.py to lidar_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/yuki/650610851_final/install/lidar_tracker/lib/python3.10/site-packages/lidar_tracker-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/lidar_tracker/lidar_tracker.egg-info to /home/yuki/650610851_final/install/lidar_tracker/lib/python3.10/site-packages/lidar_tracker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_node script to /home/yuki/650610851_final/install/lidar_tracker/lib/lidar_tracker
+writing list of installed files to '/home/yuki/650610851_final/build/lidar_tracker/install.log'

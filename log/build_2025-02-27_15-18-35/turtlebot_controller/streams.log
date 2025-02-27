@@ -1,0 +1,37 @@
+[1.723s] Invoking command in '/home/yuki/650610851_final/build/turtlebot_controller': PYTHONPATH=/home/yuki/650610851_final/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yuki/650610851_final/build/turtlebot_controller/build
+[2.204s] running develop
+[2.517s] Removing /home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot-controller.egg-link (link to .)
+[2.589s] Invoked command in '/home/yuki/650610851_final/build/turtlebot_controller' returned '0': PYTHONPATH=/home/yuki/650610851_final/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yuki/650610851_final/build/turtlebot_controller/build
+[2.593s] Invoking command in '/home/yuki/650610851_final/src/turtlebot_controller': PYTHONPATH=/home/yuki/650610851_final/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /home/yuki/650610851_final/build/turtlebot_controller/build install --record /home/yuki/650610851_final/build/turtlebot_controller/install.log --single-version-externally-managed install_data --force
+[3.058s] running egg_info
+[3.061s] writing ../../build/turtlebot_controller/turtlebot_controller.egg-info/PKG-INFO
+[3.062s] writing dependency_links to ../../build/turtlebot_controller/turtlebot_controller.egg-info/dependency_links.txt
+[3.063s] writing entry points to ../../build/turtlebot_controller/turtlebot_controller.egg-info/entry_points.txt
+[3.063s] writing requirements to ../../build/turtlebot_controller/turtlebot_controller.egg-info/requires.txt
+[3.063s] writing top-level names to ../../build/turtlebot_controller/turtlebot_controller.egg-info/top_level.txt
+[3.067s] reading manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[3.068s] writing manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[3.069s] running build
+[3.069s] running build_py
+[3.070s] creating /home/yuki/650610851_final/build/turtlebot_controller/build
+[3.071s] creating /home/yuki/650610851_final/build/turtlebot_controller/build/lib
+[3.072s] creating /home/yuki/650610851_final/build/turtlebot_controller/build/lib/turtlebot_controller
+[3.072s] copying turtlebot_controller/__init__.py -> /home/yuki/650610851_final/build/turtlebot_controller/build/lib/turtlebot_controller
+[3.072s] copying turtlebot_controller/move_node.py -> /home/yuki/650610851_final/build/turtlebot_controller/build/lib/turtlebot_controller
+[3.073s] running install
+[3.074s] running install_lib
+[3.076s] creating /home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot_controller
+[3.076s] copying /home/yuki/650610851_final/build/turtlebot_controller/build/lib/turtlebot_controller/__init__.py -> /home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot_controller
+[3.077s] copying /home/yuki/650610851_final/build/turtlebot_controller/build/lib/turtlebot_controller/move_node.py -> /home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot_controller
+[3.078s] byte-compiling /home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot_controller/__init__.py to __init__.cpython-310.pyc
+[3.079s] byte-compiling /home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot_controller/move_node.py to move_node.cpython-310.pyc
+[3.081s] running install_data
+[3.082s] copying resource/turtlebot_controller -> /home/yuki/650610851_final/install/turtlebot_controller/share/ament_index/resource_index/packages
+[3.082s] copying package.xml -> /home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller
+[3.083s] copying launch/turtlebot_launch.py -> /home/yuki/650610851_final/install/turtlebot_controller/share/turtlebot_controller/launch
+[3.083s] running install_egg_info
+[3.086s] Copying ../../build/turtlebot_controller/turtlebot_controller.egg-info to /home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages/turtlebot_controller-0.0.0-py3.10.egg-info
+[3.089s] running install_scripts
+[3.121s] Installing move_node script to /home/yuki/650610851_final/install/turtlebot_controller/lib/turtlebot_controller
+[3.122s] writing list of installed files to '/home/yuki/650610851_final/build/turtlebot_controller/install.log'
+[3.197s] Invoked command in '/home/yuki/650610851_final/src/turtlebot_controller' returned '0': PYTHONPATH=/home/yuki/650610851_final/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuki/650610851_final/install/turtlebot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /home/yuki/650610851_final/build/turtlebot_controller/build install --record /home/yuki/650610851_final/build/turtlebot_controller/install.log --single-version-externally-managed install_data --force

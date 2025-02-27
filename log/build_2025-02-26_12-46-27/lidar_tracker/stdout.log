@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating lidar_tracker.egg-info
+writing lidar_tracker.egg-info/PKG-INFO
+writing dependency_links to lidar_tracker.egg-info/dependency_links.txt
+writing entry points to lidar_tracker.egg-info/entry_points.txt
+writing requirements to lidar_tracker.egg-info/requires.txt
+writing top-level names to lidar_tracker.egg-info/top_level.txt
+writing manifest file 'lidar_tracker.egg-info/SOURCES.txt'
+reading manifest file 'lidar_tracker.egg-info/SOURCES.txt'
+writing manifest file 'lidar_tracker.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yuki/650610851_final/install/lidar_tracker/lib/python3.10/site-packages/lidar-tracker.egg-link (link to .)
+Installing lidar_node script to /home/yuki/650610851_final/install/lidar_tracker/lib/lidar_tracker
+
+Installed /home/yuki/650610851_final/build/lidar_tracker
+running symlink_data
+creating /home/yuki/650610851_final/install/lidar_tracker/share/ament_index
+creating /home/yuki/650610851_final/install/lidar_tracker/share/ament_index/resource_index
+creating /home/yuki/650610851_final/install/lidar_tracker/share/ament_index/resource_index/packages
+symbolically linking /home/yuki/650610851_final/build/lidar_tracker/resource/lidar_tracker -> /home/yuki/650610851_final/install/lidar_tracker/share/ament_index/resource_index/packages
+symbolically linking /home/yuki/650610851_final/build/lidar_tracker/package.xml -> /home/yuki/650610851_final/install/lidar_tracker/share/lidar_tracker
